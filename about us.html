@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+html {
+box-sizing: border-box;
+}
+body {
+margin: 0px;
+padding: 0px;
+background-color:#e5fbf4;
+font-color:#fff;
+}
+h1 {
+text-align:center;
+background:linear-gradient(to left,#151e3d,#000000);
+color: white;
+padding-top: 40px;
+padding-bottom: 40px;
+margin-top: 0px;
+color:#fff;
+text-transform:uppercase;
+}
+.teamContainer {
+margin-left: 10%;
+}
+img {
+width: 100%;
+height: 200px;
+}
+*,
+*:before,
+*:after {
+box-sizing: inherit;
+}
+.teamColumn {
+display: inline-block;
+width: 300px;
+height: 400px;
+margin-bottom: 16px;
+padding: 0 8px;
+}
+@media screen and (max-width: 650px) {
+.teamColumn {
+display: block;
+}
+}
+.teamCard {
+background:linear-gradient(to left,#FFFFFF);
+text-align: center;
+font-size: 20px;
+opacity:0.6;
+color:#fff;
+}
+.personContainer {
+padding: 0 16px;
+}
+.personContainer::after,
+.teamContainer::after {
+content: "";
+clear: both;
+display: table;
+}
+.Designation {
+color: #fff;
+font-weight: bolder;
+font-size: 20px;
+}
+.contact {
+border: none;
+outline: 0;
+display: inline-block;
+padding: 12px;
+color: #000;
+font-weight: bolder;
+opancity:0.5;
+background:linear-gradient(to left,#FFFFFF);
+text-align: center;
+cursor: pointer;
+width: 100%;
+}
+.contact:hover {
+background-color: #555;
+}
+.bgimage{
+	background:linear-gradient(rgba(0, 0, 0,0.55), rgba(0,0,0,0.55)),url("bg.jpg");
+	background-size:100%;
+	width:100%;
+	height:200vh;
+}
+.about{
+	color:white;
+	font-size:20px;
+	align:left;
+}
+.rightmenu{
+	width:70%;
+	height:100px;
+	float:right;
+}
+.rightmenu ul{
+	margin-left:600px;
+}
+.rightmenu ul li{
+	display:inline-block;
+	list-style:15px;
+	color:white;
+	font-weight:bold;
+	line-height:100px;
+	margin-left:90px;
+	text-transform:uppercase;
+	cursor:pointer;
+}
+.rightmenu ul li:hover{
+	color:#00ccff;
+}
+</style>
+</head>
+<body>
+<div class="rightmenu">
+		<ul>
+			<li onclick="window.location.href='page.html';">Home</li>
+	
+		</ul>
+	</div>
+<div class="bgimage">
+<h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About Us</h1>
+<p class="about">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We a team created a website with an aim to provide Healthcare related information for society to know about diseases, simple home remedies to cure.
+&nbsp;&nbsp;&nbsp;Our primary goal is to create this website that connects people with health care.Our website is simple and easy to understand with suitable pictures and its &nbsp;&nbsp;&nbsp;eco-friendly.
+We hope that our health  in our hands website will be useful to you.</p>
+<div class="teamContainer">
+<div class="teamColumn">
+<div class="teamCard">
+<img src=".\img\mtphoto.jpeg">
+<div class="personContainer">
+<h3>Rajashree</h3>
+<p class="Designation">FullStack Developer</p>
+<p><button class="contact">Contact</button></p>
+</div>
+</div>
+</div>
+<div class="teamColumn">
+<div class="teamCard">
+<img src=".\img\sathwika.jpeg"/>
+<div class="personContainer">
+<h3>Sathwika</h3>
+<p class="Designation">Front End Developer</p>
+<p href='Webtrail.html'><button class="contact">Contact</button></p>
+</div>
+</div>
+</div>
+<div class="teamColumn">
+<div class="teamCard">
+<img
+src=".\img\sharvani.jpeg"/>
+<div class="personContainer">
+<h3>Sharvani K</h3>
+<p class="Designation">Front End Developer</p>
+<p><button class="contact">Contact</button></p>
+</div>
+</div>
+</div>
+<div class="teamColumn">
+<div class="teamCard">
+<img
+src=".\img\shrinidhi.jpeg"/>
+<div class="personContainer">
+<h3>Shreenidhi K</h3>
+<p class="Designation">Front End Developer</p>
+<p><button class="contact">Contact</button></p>
+</div>
+</div>
+</div>
+<div class="teamColumn">
+<div class="teamCard">
+<img
+src=".\img\yashaswi.jpeg"/>
+<div class="personContainer">
+<h3>Yashaswi M D</h3>
+<p class="Designation">Front End Developer</p>
+<p><button class="contact">Contact</button></p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
